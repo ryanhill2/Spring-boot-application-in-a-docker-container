@@ -12,3 +12,6 @@ spring-boot-docker.jar
 
 * then create a container by doing
 docker run -p 9090:8080 spring-boot-docker.jar
+
+*Or simply 
+./mvnw spring-boot:build-image
